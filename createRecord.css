@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* NAVIGATION BAR */
+
+
+/*Home Page*/
+
+.nav-heading {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px;
+}
+
+.nav-bar {
+    /* border: 2px solid yellow; */
+    background-color: black;
+    margin: 0px 8px 0px 8px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    margin: 8px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar ul li :hover {
+    font-size: larger;
+    background-color: white;
+    color: black;
+    border-radius: 14px;
+    margin: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-heading {
+    font-size: 5vh;
+}
+
+
+/* createRecord page css */
+
+.stdetails {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh; */
+}
+
+.form {
+    /* border: 2px solid red; */
+    margin: 14px 0px 14px 0px;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form div h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6vh;
+}
+
+.formdetails {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+}
+
+.formdetails div {
+    margin: 26px 0px;
+    width: 50vw;
+}
+
+.formdetails div input {
+    width: 20vw;
+    height: 4vh;
+}
+
+
+/* #btn {
+    width: 20vw;
+} */
+
+#btn {
+    display: flex;
+    flex-direction: column;
+}
+
+#submitbtn {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    width: fit-content;
+    align-self: center;
+    height: 3.9vh;
+}
+
+#btn a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}

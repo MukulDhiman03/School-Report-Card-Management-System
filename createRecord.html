@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report Card Handling System</title>
+    <link rel="stylesheet" href="createRecord.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <div class="navigationbar">
+        <div class="nav-heading">
+            <h1>Student Report Card Handling System</h1>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/createRecord.html">Create Record</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="stdetails">
+        <div>
+            <div class="form">
+                <div>
+                    <h3><u>Enter the details of Student</u></h3>
+                </div>
+                <form class="formdetails" action="">
+                    <div>
+                        Current Year/Sem: <input type="number" id="sem" placeholder="Enter Semester">
+                    </div>
+                    <div>
+                        Branch: <input type="text" id="branch" placeholder="Enter Branch">
+                    </div>
+                    <div>
+                        Enter no of record: <input type="number" id="noofrecord" placeholder="Enter No Of Record">
+                    </div>
+                </form>
+                <div id="btn">
+                    <button type="button" id="submitbtn" onclick="getInputValue();">Set Details</button>
+
+                    <button style="height: 3.9vh;"><a href="/marks.html">CLICK HERE TO ENTER MARKS</a></button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

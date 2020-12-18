@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="marks.css">
+</head>
+
+<body>
+    <table id='mytable'>
+        <tr>
+            <th>STUDENT</th>
+            <th>MARKS(CS)</th>
+            <th>MARKS(Maths)</th>
+            <th>MARKS(Logic Design)</th>
+            <th>MARKS(DS)</th>
+            <th>TOTAL</th>
+
+            <th>GRADE</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Student name" id='s1'>
+            </td>
+            <td>
+                <input type="number" placeholder="Computer Science" id='s1CS'>
+            </td>
+            <td>
+                <input type="number" placeholder="Engineering Mathematics" id='s1EM'>
+            </td>
+            <td>
+                <input type="number" placeholder="Logic Design" id='s1LD'>
+            </td>
+            <td>
+                <input type="number" placeholder="Data Structure" id='s1DS'>
+            </td>
+            <td>
+                <input type="number" placeholder="Total" id='s1Total'>
+            </td>
+            <td>
+                <input type="text" placeholder="Grade" id='s1Grade'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Student name" id='s2'>
+            </td>
+            <td>
+                <input type="number" placeholder="Computer Science" id='s2CS'>
+            </td>
+            <td>
+                <input type="number" placeholder="Engineering Mathematics" id='s2EM'>
+            </td>
+            <td>
+                <input type="number" placeholder="Logic Design" id='s2LD'>
+            </td>
+            <td>
+                <input type="number" placeholder="Data Structure" id='s2DS'>
+            </td>
+            <td>
+                <input type="key" placeholder="Total" id='s2Total'>
+            </td>
+            <td>
+                <input type="text" placeholder="Grade" id='s2Grade'>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" placeholder="Student name" id='s3'>
+            </td>
+            <td>
+                <input type="number" placeholder="Computer Science" id='s3CS'>
+            </td>
+            <td>
+                <input type="number" placeholder="Engineering Mathematics" id='s3EM'>
+            </td>
+            <td>
+                <input type="number" placeholder="Logic Design" id='s3LD'>
+            </td>
+            <td>
+                <input type="number" placeholder="Data Structure" id='s3DS'>
+            </td>
+            <td>
+                <input type="key" placeholder="Total" id='s3Total'>
+            </td>
+            <td>
+                <input type="text" placeholder="Grade" id='s3Grade'>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" placeholder="Student name" id='s4'>
+            </td>
+            <td>
+                <input type="number" placeholder="Computer Science" id='s4CS'>
+            </td>
+            <td>
+                <input type="number" placeholder="Engineering Mathematics" id='s4EM'>
+            </td>
+            <td>
+                <input type="number" placeholder="Logic Design" id='s4LD'>
+            </td>
+            <td>
+                <input type="number" placeholder="Data Structure" id='s4DS'>
+            </td>
+            <td>
+                <input type="key" onkeypress='evaluate();' placeholder="Total" id='s4Total'>
+            </td>
+            <td>
+                <input type="text" placeholder="Grade" id='s4Grade'>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" placeholder="Student name" id='s5'>
+            </td>
+            <td>
+                <input type="number" placeholder="Computer Science" id='s5CS'>
+            </td>
+            <td>
+                <input type="number" placeholder="Engineering Mathematics" id='s5EM'>
+            </td>
+            <td>
+                <input type="number" placeholder="Logic Design" id='s5LD'>
+            </td>
+            <td>
+                <input type="number" placeholder="Data Structure" id='s5DS'>
+            </td>
+            <td>
+                <input type="key" onkeypress='evaluate();' placeholder="Total" id='s5Total'>
+            </td>
+            <td>
+                <input type="text" placeholder="Grade" id='s5Grade'>
+            </td>
+        </tr>
+
+
+    </table>
+
+    <div id="btn">
+        <button id="btn1" type="button" onclick=" calculate();  ">Display Record</button>
+        <button id="btn2" type="button" onclick=" deleteRecord();  ">Delete This Record</button>
+        <button id="btn3"><a href="/index.html">Go To Home Page</a></button>
+    </div>
+
+    <button id="print" onclick="printResult()">PRINT RESULT</button>
+
+
+
+</body>
+
+</html>

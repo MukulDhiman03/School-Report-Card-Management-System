@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.box {
+    width: 400px;
+    position: absolute;
+    top: 21%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+}
+
+
+/* .box .input_box{
+    position:relative;
+} */
+
+.box .input_box input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+}
+
+.box .input_box label {
+    color: #03a9f4;
+    ;
+    letter-spacing: 1px;
+    position: relative;
+    left: 0px;
+    bottom: 60px;
+}
+
+.box .input_box input:focus~label {
+    display: none;
+}
+
+.box button[type="button"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #03a9f4;
+    border-radius: 15px;
+    padding: 8px;
+    text-transform: capitalize;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.box button[type="button"] a {
+    text-decoration: none;
+}
+
+
+/* .box button[type="button"] a:hover {
+    visibility: hidden;
+} */
+
+.box button[type="button"]:hover {
+    cursor: pointer;
+}

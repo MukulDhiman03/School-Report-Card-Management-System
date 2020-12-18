@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mytable {
+    margin-top: 10px;
+    border: 5px solid red;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    padding: 14px;
+    width: 90vw;
+    height: 40vh;
+}
+
+#mytable tr td input {
+    width: 13vw;
+    height: 5vh;
+    font-weight: bolder;
+    border: 4px solid black;
+    padding: 14px;
+    border-radius: 15px;
+}
+
+#btn {
+    border: 2px solid blue;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+#btn1 {
+    width: 20vw;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    height: 4vh;
+    background-color: #008CBA;
+}
+
+#btn2 {
+    margin-bottom: 8px;
+    width: 20vw;
+    height: 4vh;
+    background-color: #008CBA;
+    font-weight: bolder;
+}
+
+#btn3 {
+    width: 20vw;
+    height: 4vh;
+    background-color: #008CBA;
+}
+
+#btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#print {
+    font-size: 2vh;
+    border: 4px solid black;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    width: 13vh;
+    height: 7vh;
+    border-radius: 14px;
+}
+
+.divclass {
+    font-weight: bolder;
+    color: red;
+}
